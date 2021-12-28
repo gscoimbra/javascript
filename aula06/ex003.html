@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa js...</title>
+    <style>
+        body {
+            background-color: rgb(53, 106, 136);
+            color: white;
+            font: normal 10pt Arial;
+        }
+        h1 {
+            color: yellow;
+        }
+    </style> <!--CSS-->
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já me livrei da maldição!!</p>
+    <script>
+        var n1 = Number.parseFloat(window.prompt('Digite um número: '));
+        var n2 = Number.parseFloat(window.prompt('Digite outro número: '));
+        var s = n1 + n2
+        // Usando concatenação window.alert('A soma dos valores é ' + s)
+
+        window.alert(`A soma entre ${n1} e ${n2} é ${s}`) // Usando template string
+
+        // number + number para adição
+        // string + string para concatenação
+        // prompt por default recebe o valor como string
+        // Number.parseInt() -> converte para inteiro
+        // Number.parseFloat() -> converte para float
+        // Pode utilizar também só Number(), o JS vai sozinho decidir se o valor será Int ou Float -> Versões mais novas do ECMA Script 
+        // String(s) -> Converte para uma string
+
+        // s.length -> Quantos caracteres a string tem
+        // s.toUpperCase() -> tudo para 'MAIÚSCULAS'
+        // s.toLowerCase() -> tudo para 'minúsculas'
+
+    </script>
+</body>
+
+</html>
+    
